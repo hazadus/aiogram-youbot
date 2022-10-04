@@ -1,0 +1,157 @@
+04/10/2022 21:18:53 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:18:53 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:18:53 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:18:53 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:26:51 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 21:26:51 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 21:26:53 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:26:53 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:26:53 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:26:53 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:29:15 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 21:29:15 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 21:29:16 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:29:16 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:29:16 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:29:17 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:29:26 - INFO	client/message_youtube_link:23	- User @Hazadus sent link: https://www.youtube.com/watch?v=Vkqo09UeOFs&t=1584s
+04/10/2022 21:32:30 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 21:32:30 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 21:32:35 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:32:35 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:32:35 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:32:36 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:32:43 - INFO	client/any_message:27	- "@Hazadus" id=133637887 chat_id:133637887: привет
+04/10/2022 21:36:23 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 21:36:23 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 21:36:26 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:36:26 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:36:26 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:36:27 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:36:41 - INFO	client/message_youtube_link:25	- User @Hazadus sent video Чипсы со вкусом в*гины / Турция — новая помойка ЕС / Шахматист с ан*льной шпаргалкой link: https://www.youtube.com/watch?v=Vkqo09UeOFs&t=1584s
+04/10/2022 21:39:32 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 21:39:32 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 21:39:35 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:39:35 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:39:35 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:39:35 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:39:47 - INFO	client/message_youtube_link:27	- User @Hazadus sent video "Чипсы со вкусом в*гины / Турция — новая помойка ЕС / Шахматист с ан*льной шпаргалкой", link: https://www.youtube.com/watch?v=Vkqo09UeOFs&t=1584s
+04/10/2022 21:40:41 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 21:40:41 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 21:40:42 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:40:42 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:40:42 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:40:42 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:40:46 - INFO	client/message_youtube_link:27	- User @Hazadus sent video "Чипсы со вкусом в*гины / Турция — новая помойка ЕС / Шахматист с ан*льной шпаргалкой", link: https://www.youtube.com/watch?v=Vkqo09UeOFs&t=1584s
+04/10/2022 21:48:41 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 21:48:41 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 21:48:43 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:48:43 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:48:43 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:48:43 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:49:34 - INFO	client/message_youtube_link:38	- User @Hazadus sent video "Ленина Пакет - Dead Catz", link: https://www.youtube.com/watch?v=jsEZpGXuawk&list=PLXAMZ5c3uaRZjobW9aAo-QtHzAVm34qBu
+04/10/2022 21:50:32 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 21:50:32 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 21:50:34 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:50:34 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:50:34 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:50:34 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:50:40 - INFO	client/message_youtube_link:38	- User @Hazadus sent video "Ленина Пакет - Dead Catz", link: https://www.youtube.com/watch?v=jsEZpGXuawk&list=PLXAMZ5c3uaRZjobW9aAo-QtHzAVm34qBu
+04/10/2022 21:50:40 - ERROR	base_events/default_exception_handler:1744	- Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at /Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=TypeError("download_video() missing 1 required positional argument: 'message'")>
+Traceback (most recent call last):
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/handlers/client.py", line 39, in message_youtube_link
+    await download_video(message.text)
+TypeError: download_video() missing 1 required positional argument: 'message'
+04/10/2022 21:50:54 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 21:50:54 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 21:50:55 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:50:55 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:50:55 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:50:56 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:50:59 - INFO	client/message_youtube_link:38	- User @Hazadus sent video "Ленина Пакет - Dead Catz", link: https://www.youtube.com/watch?v=jsEZpGXuawk&list=PLXAMZ5c3uaRZjobW9aAo-QtHzAVm34qBu
+04/10/2022 21:55:31 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 21:55:31 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 21:55:32 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:55:32 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:55:32 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:55:32 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:55:41 - INFO	client/message_youtube_link:44	- User @Hazadus sent video "Ленина Пакет - Dead Catz", link: https://www.youtube.com/watch?v=jsEZpGXuawk&list=PLXAMZ5c3uaRZjobW9aAo-QtHzAVm34qBu
+04/10/2022 21:55:49 - INFO	client/download_video:29	- Video saved to file 133637887_2498441a-4416-11ed-84fa-6a164ebee836.mp4
+04/10/2022 21:55:49 - ERROR	base_events/default_exception_handler:1744	- Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at /Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NetworkError('File too large for uploading. Check telegram api limits https://core.telegram.org/bots/api#senddocument')>
+Traceback (most recent call last):
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/handlers/client.py", line 45, in message_youtube_link
+    await download_video(message.text, message)
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/handlers/client.py", line 32, in download_video
+    await message.answer_video(video, caption=f'Ваше видео: {yt.title}')
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 846, in answer_video
+    return await self.bot.send_video(
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 819, in send_video
+    result = await self.request(api.Methods.SEND_VIDEO, payload, files)
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/Users/hazadus/PycharmProjects/aiogram-youbot/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 123, in check_result
+    raise exceptions.NetworkError('File too large for uploading. '
+aiogram.utils.exceptions.NetworkError: File too large for uploading. Check telegram api limits https://core.telegram.org/bots/api#senddocument
+04/10/2022 21:59:17 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 21:59:17 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 21:59:19 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 21:59:19 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 21:59:19 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 21:59:19 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 21:59:34 - INFO	client/message_youtube_link:49	- User @Hazadus sent video "Ленина Пакет - Dead Catz", link: https://www.youtube.com/watch?v=jsEZpGXuawk&list=PLXAMZ5c3uaRZjobW9aAo-QtHzAVm34qBu
+04/10/2022 21:59:43 - INFO	client/download_video:30	- Video saved to file 133637887_af82a07a-4416-11ed-8732-6a164ebee836.mp4
+04/10/2022 21:59:44 - INFO	client/download_video:39	- Video 133637887_af82a07a-4416-11ed-8732-6a164ebee836.mp4 sent to @Hazadus (133637887)
+04/10/2022 22:01:07 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 22:01:07 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 22:01:08 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 22:01:08 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 22:01:08 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 22:01:08 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 22:01:14 - INFO	client/message_youtube_link:49	- User @Hazadus sent video "Ленина Пакет - Dead Catz", link: https://www.youtube.com/watch?v=jsEZpGXuawk&list=PLXAMZ5c3uaRZjobW9aAo-QtHzAVm34qBu
+04/10/2022 22:01:19 - INFO	client/download_video:31	- Video saved to file 133637887_eb72aa08-4416-11ed-b609-6a164ebee836.mp4
+04/10/2022 22:01:22 - INFO	client/download_video:36	- Video 133637887_eb72aa08-4416-11ed-b609-6a164ebee836.mp4 sent to @Hazadus (133637887)
+04/10/2022 22:03:40 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 22:03:40 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 22:03:41 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 22:03:41 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 22:03:41 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 22:03:41 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 22:05:59 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 22:05:59 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 22:06:03 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 22:06:03 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 22:06:03 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 22:06:03 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 22:06:16 - INFO	client/any_message:58	- "@Hazadus" id=133637887 chat_id:133637887: ghbhdh
+04/10/2022 22:06:24 - INFO	client/message_youtube_link:53	- User @Hazadus sent video "Ленина Пакет - Dead Catz", link: https://www.youtube.com/watch?v=jsEZpGXuawk&list=PLXAMZ5c3uaRZjobW9aAo-QtHzAVm34qBu
+04/10/2022 22:06:28 - INFO	client/download_video:33	- Video saved to file 133637887_a40855f4-4417-11ed-881a-6a164ebee836.mp4
+04/10/2022 22:06:30 - INFO	client/download_video:38	- Video 133637887_a40855f4-4417-11ed-881a-6a164ebee836.mp4 sent to @Hazadus (133637887)
+04/10/2022 22:06:44 - INFO	client/message_youtube_link:53	- User @Hazadus sent video "Ленина Пакет - Dead Catz", link: https://www.youtube.com/watch?v=jsEZpGXuawk&list=PLXAMZ5c3uaRZjobW9aAo-QtHzAVm34qBu
+04/10/2022 22:06:48 - INFO	client/download_video:33	- Video saved to file 133637887_affba41a-4417-11ed-881a-6a164ebee836.mp4
+04/10/2022 22:06:51 - INFO	client/download_video:38	- Video 133637887_affba41a-4417-11ed-881a-6a164ebee836.mp4 sent to @Hazadus (133637887)
+04/10/2022 22:07:18 - INFO	dispatcher/stop_polling:433	- Stop polling...
+04/10/2022 22:07:18 - WARNING	executor/start_polling:329	- Goodbye!
