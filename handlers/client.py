@@ -18,7 +18,7 @@ async def command_start(message: types.Message):
                                'Этот бот умеет качать и отправлять вам видосы с ютуба. '
                                'Киньте ссылку на видео в директ, в ответ получите видос.\n'
                                'Ограничение Telegram API на засылку видоса ботом – 50 Мб, поэтому '
-                               'качаю в самом низком разрешении.')
+                               'в случае большого видео, придется подождать подольше.')
         await message.delete()
     except:
         await message.reply('Этот бот умеет качать и отправлять вам видосы с ютуба. Пишите ему в директ!')
@@ -63,6 +63,7 @@ async def message_youtube_link(message: types.Message):
     await bot.send_message(os.getenv('BOT_ADMIN'), log_text)
     logging.info(log_text)
     await download_video(message.text, message)
+    await message.delete()
 
 
 async def any_message(message: types.Message):
