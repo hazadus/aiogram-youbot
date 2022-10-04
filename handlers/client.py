@@ -42,6 +42,8 @@ async def download_video(url: str, message: types.Message):
             logging.info(f'Video {output_filename} sent to @{message.from_user.username} ({message.from_user.id})')
         except NetworkError:
             await message.answer('Слишком большое видео! Могу отправить только до 50 Мб (ограничение Telegram API)')
+            await message.answer('Но я сейчас попробую обойти это ограничение хитрожопым способом, всё для вас! '
+                                 'Ждите, пожалуйста... (пока я пробую, не смогу реагировать на другие сообщения)')
             logging.info(f'Video {output_filename} too large to send.')
             logging.info(f'Trying to send video using telegram-upload utility...')
             # telegram-upload --to @HazadusBot 'archive.txt' --caption '123456'
@@ -71,7 +73,8 @@ async def any_message(message: types.Message):
 async def resend_video(message: types.Message):
     # Set video caption to chat_id where it must be sent!
     logging.info(f'Got msg from admin to resend: {message.video.file_id} to chat_id={message.caption}')
-    bot.send_video(message.caption, message.video.file_id)
+    message.forward(message.caption)
+    # bot.send_video(message.caption, message.video.file_id)
 
 
 def filter_youtube_link(message: types.Message):
