@@ -1,7 +1,7 @@
 import os
 import uuid
 import logging
-from asyncio import subprocess
+import subprocess
 
 from aiogram import types, Dispatcher
 from aiogram.utils.exceptions import NetworkError
@@ -28,8 +28,8 @@ async def download_video(url: str, message: types.Message):
     output_filename = f'{message.from_user.id}_{uuid.uuid1()}.mp4'
 
     stream = yt.streams.filter(progressive=True, file_extension='mp4')
-    # stream.get_highest_resolution().download(filename=output_filename)
-    stream.get_lowest_resolution().download(filename=output_filename)
+    stream.get_highest_resolution().download(filename=output_filename)
+    # stream.get_lowest_resolution().download(filename=output_filename)
 
     logging.info(f'Video saved to file {output_filename}')
 
