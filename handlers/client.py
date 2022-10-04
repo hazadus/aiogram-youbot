@@ -73,8 +73,8 @@ async def any_message(message: types.Message):
 async def resend_video(message: types.Message):
     # Set video caption to chat_id where it must be sent!
     logging.info(f'Got msg from admin to resend: {message.video.file_id} to chat_id={message.caption}')
-    message.forward(message.caption)
-    # bot.send_video(message.caption, message.video.file_id)
+    # message.forward(message.caption)
+    await bot.send_video(message.caption, message.video.file_id)
 
 
 def filter_youtube_link(message: types.Message):
