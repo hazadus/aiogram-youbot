@@ -1,6 +1,7 @@
 import os
 import uuid
 import logging
+from asyncio import subprocess
 
 from aiogram import types, Dispatcher
 from aiogram.utils.exceptions import NetworkError
@@ -39,6 +40,11 @@ async def download_video(url: str, message: types.Message):
         except NetworkError:
             await message.answer('Слишком большое видео! Могу отправить только до 50 Мб (ограничение Telegram API)')
             logging.info(f'Video {output_filename} too large to send.')
+            logging.info(f'Trying to send video using telegram-upload utility...')
+            # telegram-upload --to @HazadusBot 'archive.txt' --caption '123456'
+            subprocess.run(["telegram-upload", "--to", '@HazadusBot', output_filename,
+                            '--caption', f'{message.chat.id}'
+                            ])
         finally:
             os.remove(output_filename)
 
@@ -59,15 +65,26 @@ async def any_message(message: types.Message):
     await message.answer('Лучше пришлите ссылку на видос с ютубчика!')
 
 
+async def resend_video(message: types.Message):
+    # Set video caption to chat_id where it must be sent!
+    logging.info(f'Got msg from admin to resend: {message.video.file_id} to chat_id={message.caption}')
+    bot.send_video(message.caption, message.video.file_id)
+
+
 def filter_youtube_link(message: types.Message):
     return message.text.startswith('https://www.youtube.com/') or message.text.startswith('https://youtu.be/')
     # return message.chat.type == 'private' and \
     #        (message.text.startswith('https://www.youtube.com/') or message.text.startswith('https://youtu.be/'))
 
 
+def filter_admin_msg(message: types.Message):
+    return message.chat.type == 'private' and str(message.from_user.id) == os.getenv('BOT_ADMIN')
+
+
 def register_client_handlers(disp: Dispatcher):
     disp.register_message_handler(command_start, commands=['start', 'help'])
     disp.register_message_handler(message_youtube_link, filter_youtube_link)
+    disp.register_message_handler(resend_video, filter_admin_msg, content_types=['video'])
     # Any message to bot/chat. Must be last in order of handlers!
     disp.register_message_handler(any_message, lambda message: message.chat.type == 'private')
 

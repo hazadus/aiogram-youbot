@@ -155,3 +155,8 @@ aiogram.utils.exceptions.NetworkError: File too large for uploading. Check teleg
 04/10/2022 22:06:51 - INFO	client/download_video:38	- Video 133637887_affba41a-4417-11ed-881a-6a164ebee836.mp4 sent to @Hazadus (133637887)
 04/10/2022 22:07:18 - INFO	dispatcher/stop_polling:433	- Stop polling...
 04/10/2022 22:07:18 - WARNING	executor/start_polling:329	- Goodbye!
+04/10/2022 22:54:13 - INFO	executor/_welcome:362	- Bot: HazadusDebugBot [@HazadusDebugBot]
+04/10/2022 22:54:13 - WARNING	executor/_skip_updates:358	- Updates were skipped successfully.
+04/10/2022 22:54:13 - INFO	aiogram-youbot/on_startup:22	- Bot started.
+04/10/2022 22:54:13 - INFO	dispatcher/start_polling:358	- Start polling.
+04/10/2022 22:54:38 - INFO	client/resend_video:63	- Got msg from admin to resend: BAACAgIAAxkBAAIDbGM8j37Zlm_TgIJ2_TN1Zz0YannDAAIZHwACMdDpSag5sYaJUyrxKgQ to chat_id=Ваше видео: РЕПЕР СЯВА - ОТДЫХАЕМ ХОРОШО
