@@ -55,9 +55,9 @@ async def download_video(url: str, message: types.Message):
             os.spawnl(os.P_NOWAIT, 'telegram-upload', '--to', '@HazadusBot', output_filename, '--caption',
                       message.chat.id)
             logging.info('telegram-upload executed in background.')
-            await my_msg.delete()
-        finally:
-            os.remove(output_filename)
+        #     await my_msg.delete()
+        # finally:
+        #     os.remove(output_filename)
 
 
 async def message_youtube_link(message: types.Message):
