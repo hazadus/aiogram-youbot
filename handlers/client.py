@@ -52,7 +52,8 @@ async def download_video(url: str, message: types.Message):
             # telegram-upload --to @HazadusBot 'archive.txt' --caption '123456'
             # subprocess.run(['telegram-upload', '--to', '@HazadusBot', output_filename, '--caption',
             #                 f'{message.chat.id}'])
-            os.spawnl(os.P_NOWAIT, f'telegram-upload --to @HazadusBot {output_filename} --caption {message.chat.id}')
+            os.spawnl(os.P_NOWAIT, 'telegram-upload', '--to', '@HazadusBot', output_filename, '--caption',
+                      message.chat.id)
             logging.info('telegram-upload executed in background.')
             await my_msg.delete()
         finally:
