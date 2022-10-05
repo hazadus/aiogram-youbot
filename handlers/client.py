@@ -50,9 +50,10 @@ async def download_video(url: str, message: types.Message):
             logging.info(f'Video {output_filename} too large to send.')
             logging.info(f'Trying to send video using telegram-upload utility...')
             # telegram-upload --to @HazadusBot 'archive.txt' --caption '123456'
-            subprocess.run(["telegram-upload", "--to", '@HazadusBot', output_filename, '--caption',
-                            f'{message.chat.id}', '&'])
-            logging.info('telegram-upload executed.')
+            # subprocess.run(['telegram-upload', '--to', '@HazadusBot', output_filename, '--caption',
+            #                 f'{message.chat.id}'])
+            os.spawnl(os.P_DETACH, f'telegram-upload --to @HazadusBot {output_filename} --caption {message.chat.id}')
+            logging.info('telegram-upload executed in background.')
             await my_msg.delete()
         finally:
             os.remove(output_filename)

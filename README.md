@@ -33,9 +33,14 @@ export BOT_LOG_FILENAME=aiogram_youbot.log
 cd /usr/projects/aiogram-youbot
 source bin/activate
 nohup python ./aiogram-youbot &
+# or with pm2:
+# pm2 start ./aiogram-youbot.py --interpreter=python3 --restart-delay 6000
 ```
 Then `chmod a+x ./run_bot.sh`.
 To start the bot in production mode:
 ```bash
 $ ./run_bot.sh
 ```
+
+## References
+- [How To Use subprocess to Run External Programs in Python 3](https://www.digitalocean.com/community/tutorials/how-to-use-subprocess-to-run-external-programs-in-python-3)
