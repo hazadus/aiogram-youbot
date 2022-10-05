@@ -28,35 +28,40 @@ async def download_video(url: str, message: types.Message):
     yt = YouTube(url)
     output_filename = f'{message.from_user.id}_{uuid.uuid1()}.mp4'
 
+    logging.info(f'Trying to save video from {url}')
+
     try:
         stream = yt.streams.filter(progressive=True, file_extension='mp4')
         stream.get_highest_resolution().download(filename=output_filename)
-        # stream.get_lowest_resolution().download(filename=output_filename)
         logging.info(f'Video saved to file {output_filename}')
     except HTTPError as e:
         logging.info(f'An error has occured while downloading video: {e.info}')
+        return
 
     with open(output_filename, 'rb') as video:
         try:
             await message.answer_video(video, caption=f'Ваше видео: {yt.title}')
             logging.info(f'Video {output_filename} sent to @{message.from_user.username} ({message.from_user.id})')
         except NetworkError:
-            await message.answer('Слишком большое видео! Могу отправить только до 50 Мб (ограничение Telegram API)')
-            await message.answer('Но я сейчас попробую обойти это ограничение хитрожопым способом, всё для вас! '
-                                 'Ждите, пожалуйста... (пока я пробую, не смогу реагировать на другие сообщения)')
+            my_msg = await message.answer('Слишком большое видео! Могу отправить только до 50 Мб '
+                                          '(ограничение Telegram API). Но я сейчас попробую обойти это ограничение '
+                                          'хитрожопым способом, всё для вас! Ждите, пожалуйста... (Пока я пробую, не '
+                                          'смогу реагировать на другие сообщения.)')
             logging.info(f'Video {output_filename} too large to send.')
             logging.info(f'Trying to send video using telegram-upload utility...')
             # telegram-upload --to @HazadusBot 'archive.txt' --caption '123456'
-            subprocess.run(["telegram-upload", "--to", '@HazadusBot', output_filename,
-                            '--caption', f'{message.chat.id}'
-                            ])
+            subprocess.run(["telegram-upload", "--to", '@HazadusBot', output_filename, '--caption',
+                            f'{message.chat.id}', '&'])
+            logging.info('telegram-upload executed.')
+            await my_msg.delete()
         finally:
             os.remove(output_filename)
 
 
 async def message_youtube_link(message: types.Message):
     yt = YouTube(message.text)
-    log_text = f'User @{message.from_user.username} sent video "{yt.title}", link: {message.text}'
+    log_text = f'User @{message.from_user.username} ({message.from_user.full_name}) sent video "{yt.title}", ' \
+               f'link: {message.text}'
     await message.answer(f'Начинаю качать *{yt.title.replace("*", "")}* с канала: "{yt.author}". '
                          f'Наберитесь терпения!',
                          parse_mode='Markdown')
@@ -80,8 +85,6 @@ async def resend_video(message: types.Message):
 
 def filter_youtube_link(message: types.Message):
     return message.text.startswith('https://www.youtube.com/') or message.text.startswith('https://youtu.be/')
-    # return message.chat.type == 'private' and \
-    #        (message.text.startswith('https://www.youtube.com/') or message.text.startswith('https://youtu.be/'))
 
 
 def filter_admin_msg(message: types.Message):
