@@ -49,15 +49,15 @@ async def download_video(url: str, message: types.Message):
                                           'смогу реагировать на другие сообщения.)')
             logging.info(f'Video {output_filename} too large to send.')
             logging.info(f'Trying to send video using telegram-upload utility...')
-            # telegram-upload --to @HazadusBot 'archive.txt' --caption '123456'
-            # subprocess.run(['telegram-upload', '--to', '@HazadusBot', output_filename, '--caption',
-            #                 f'{message.chat.id}'])
-            os.spawnv(os.P_NOWAIT, '/usr/local/bin/telegram-upload', ['--to', '@HazadusBot', output_filename,
-                                                                      '--caption', message.chat.id])
-            logging.info('telegram-upload executed in background.')
-        #     await my_msg.delete()
-        # finally:
-        #     os.remove(output_filename)
+            # telegram-upload -d --to @HazadusBot 'archive.txt' --caption '123456'
+            subprocess.run(['telegram-upload', '--to', '@HazadusBot', output_filename, '--caption',
+                            f'{message.chat.id}'])
+            # os.spawnv(os.P_NOWAIT, '/usr/local/bin/telegram-upload', ['--to', '@HazadusBot', output_filename,
+            #                                                           '--caption', message.chat.id])
+            logging.info('telegram-upload executed.')
+            await my_msg.delete()
+        finally:
+            os.remove(output_filename)
 
 
 async def message_youtube_link(message: types.Message):
@@ -99,4 +99,3 @@ def register_client_handlers(disp: Dispatcher):
     disp.register_message_handler(resend_video, filter_admin_msg, content_types=['video'])
     # Any message to bot/chat. Must be last in order of handlers!
     disp.register_message_handler(any_message, lambda message: message.chat.type == 'private')
-
